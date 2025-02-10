@@ -6,7 +6,7 @@ const data = [
     title: "Post Title 1",
     img: bis,
     content:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio sapiente, pariatur praesentium quasi ipsum aut omnis eum. Minus cum quaerat nostrum asperiores commodi ducimus earum? Recusandae praesentium officiis illo earum mollitia aut eos cum ex est? Esse reiciendis doloremque aspernatur quasi fugit ut nesciunt totam similique explicabo deserunt non nemo sit provident ab dolore possimus ea odio nihil laborum ipsa, voluptas voluptates placeat culpa! Molestias tempore dolor similique numquam neque, cumque accusamus odit nam consectetur possimus ipsam quidem adipisci consequatur aliquam iusto, quam eos distinctio dolorem at qui. Dignissimos porro id commodi voluptatum error delectus animi unde, obcaecati odio",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae odio sapiente, pariatur praesentium quasi ipsum aut omnis eum. Minus cum quaerat nostrum asperiores commodi ducimus earum? Recusandae praesentium officiis illo earum mollitia aut eos cum ex est? Esse reiciendis doloremque aspernatur quasi fugit ut nesciunt totam similique explicabo deserunt non nemo sit provident ab dolore possimus ea odio nihil laborum ipsa, voluptas voluptates placeat culpa! Molestias tempore dolor similique numquam neque, cumque accusamus odit nam consectetur possimus ipsam quidem adipisci consequatur aliquam iusto, quam eos distinctio dolorem at qui. Dignissimos porro id commodi voluptatum error delectus animi unde, obcaecati odio this is a demo post ",
   },
   // Add more posts here...
 ];
