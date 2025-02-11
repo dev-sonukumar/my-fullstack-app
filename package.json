@@ -2,7 +2,7 @@
   "name": "my-fullstack-app",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "start": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "npm start --prefix frontend",
     "backend": "nodemon backend/index.js",
@@ -15,6 +15,7 @@
   "description": "",
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "vite": "^6.1.0"
   }
 }
