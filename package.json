@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
 "scripts": {
-  "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
-  "build": "npm run build --prefix frontend",
-  "install-all": "npm install && npm install --prefix frontend && npm install --prefix backend"
-},
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "npm start --prefix frontend",
+    "backend": "nodemon backend/index.js",
+    "build": "npm run build --prefix frontend",
+    "install-all": "npm install && npm install --prefix frontend && npm install --prefix backend"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
   }
 }

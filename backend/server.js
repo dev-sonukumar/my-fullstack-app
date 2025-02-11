@@ -8,7 +8,7 @@ app.use(express.json());
 
 // API Route
 app.get("/api/data", (req, res) => {
-  res.json({ message: "Hello from the backend!" });
+  res.json({ message: "Hello from the backend! sonu kumar singh" });
 });
 
 // Serve React frontend (only in production)
