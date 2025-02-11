@@ -1,12 +1,13 @@
-const express = require("express");
-const app = express();
+const app = require("express")();
+const db = require("./db");
 
-const PORT = process.env.PORT || 5000;
+const bodyParser = require("body-parser");
 
-app.get("/", (req, res) => {
-  res.send("Backend is running hiii...");
-});
+app.use(bodyParser.json());
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+const faqRouter = require("./routes/faqRouter");
+app.use("/faq", faqRouter);
+
+app.listen(5000, () => {
+  console.log(`Server is running on 5000`);
 });
