@@ -1,4 +1,9 @@
+[build]
+  # Specify the build command and directory where the build output goes
+  command = "npm run build"  # or "yarn build" depending on your setup
+  publish = "build"  # Vite outputs to the "build" folder by default
+
 [[redirects]]
-from ="/*"
-to ="/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
